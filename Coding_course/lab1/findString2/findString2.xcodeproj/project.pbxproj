@@ -1,0 +1,288 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1874D98B1D9769C000F2E7A2 /* radixdb_make.c in Sources */ = {isa = PBXBuildFile; fileRef = 1874D9801D9769C000F2E7A2 /* radixdb_make.c */; };
+		1874D98C1D9769C000F2E7A2 /* radixdb_util.c in Sources */ = {isa = PBXBuildFile; fileRef = 1874D9811D9769C000F2E7A2 /* radixdb_util.c */; };
+		1874D98D1D9769C000F2E7A2 /* radixdb.c in Sources */ = {isa = PBXBuildFile; fileRef = 1874D9831D9769C000F2E7A2 /* radixdb.c */; };
+		1874D98E1D9769C000F2E7A2 /* radixdb2dot.c in Sources */ = {isa = PBXBuildFile; fileRef = 1874D9851D9769C000F2E7A2 /* radixdb2dot.c */; };
+		1874D98F1D9769C000F2E7A2 /* radixdbdump.c in Sources */ = {isa = PBXBuildFile; fileRef = 1874D9861D9769C000F2E7A2 /* radixdbdump.c */; };
+		1874D9901D9769C000F2E7A2 /* radixdbget.c in Sources */ = {isa = PBXBuildFile; fileRef = 1874D9871D9769C000F2E7A2 /* radixdbget.c */; };
+		1874D9911D9769C000F2E7A2 /* radixdbmatch.c in Sources */ = {isa = PBXBuildFile; fileRef = 1874D9881D9769C000F2E7A2 /* radixdbmatch.c */; };
+		1874D9921D9769C000F2E7A2 /* radixdbmk.c in Sources */ = {isa = PBXBuildFile; fileRef = 1874D9891D9769C000F2E7A2 /* radixdbmk.c */; };
+		1874D9931D9769C000F2E7A2 /* radixdbstats.c in Sources */ = {isa = PBXBuildFile; fileRef = 1874D98A1D9769C000F2E7A2 /* radixdbstats.c */; };
+		1874D9981D976E4A00F2E7A2 /* Test.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1874D9961D976E4A00F2E7A2 /* Test.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1874D9741D9769AD00F2E7A2 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1874D9761D9769AD00F2E7A2 /* findString2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = findString2; sourceTree = BUILT_PRODUCTS_DIR; };
+		1874D9801D9769C000F2E7A2 /* radixdb_make.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = radixdb_make.c; sourceTree = "<group>"; };
+		1874D9811D9769C000F2E7A2 /* radixdb_util.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = radixdb_util.c; sourceTree = "<group>"; };
+		1874D9821D9769C000F2E7A2 /* radixdb_util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = radixdb_util.h; sourceTree = "<group>"; };
+		1874D9831D9769C000F2E7A2 /* radixdb.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = radixdb.c; sourceTree = "<group>"; };
+		1874D9841D9769C000F2E7A2 /* radixdb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = radixdb.h; sourceTree = "<group>"; };
+		1874D9851D9769C000F2E7A2 /* radixdb2dot.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = radixdb2dot.c; sourceTree = "<group>"; };
+		1874D9861D9769C000F2E7A2 /* radixdbdump.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = radixdbdump.c; sourceTree = "<group>"; };
+		1874D9871D9769C000F2E7A2 /* radixdbget.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = radixdbget.c; sourceTree = "<group>"; };
+		1874D9881D9769C000F2E7A2 /* radixdbmatch.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = radixdbmatch.c; sourceTree = "<group>"; };
+		1874D9891D9769C000F2E7A2 /* radixdbmk.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = radixdbmk.c; sourceTree = "<group>"; };
+		1874D98A1D9769C000F2E7A2 /* radixdbstats.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = radixdbstats.c; sourceTree = "<group>"; };
+		1874D9961D976E4A00F2E7A2 /* Test.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Test.cpp; sourceTree = "<group>"; };
+		1874D9971D976E4A00F2E7A2 /* Test.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Test.hpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1874D9731D9769AD00F2E7A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1874D96D1D9769AD00F2E7A2 = {
+			isa = PBXGroup;
+			children = (
+				1874D9781D9769AD00F2E7A2 /* findString2 */,
+				1874D9771D9769AD00F2E7A2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1874D9771D9769AD00F2E7A2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1874D9761D9769AD00F2E7A2 /* findString2 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1874D9781D9769AD00F2E7A2 /* findString2 */ = {
+			isa = PBXGroup;
+			children = (
+				1874D9801D9769C000F2E7A2 /* radixdb_make.c */,
+				1874D9811D9769C000F2E7A2 /* radixdb_util.c */,
+				1874D9821D9769C000F2E7A2 /* radixdb_util.h */,
+				1874D9831D9769C000F2E7A2 /* radixdb.c */,
+				1874D9841D9769C000F2E7A2 /* radixdb.h */,
+				1874D9851D9769C000F2E7A2 /* radixdb2dot.c */,
+				1874D9861D9769C000F2E7A2 /* radixdbdump.c */,
+				1874D9871D9769C000F2E7A2 /* radixdbget.c */,
+				1874D9881D9769C000F2E7A2 /* radixdbmatch.c */,
+				1874D9891D9769C000F2E7A2 /* radixdbmk.c */,
+				1874D98A1D9769C000F2E7A2 /* radixdbstats.c */,
+				1874D9961D976E4A00F2E7A2 /* Test.cpp */,
+				1874D9971D976E4A00F2E7A2 /* Test.hpp */,
+			);
+			path = findString2;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1874D9751D9769AD00F2E7A2 /* findString2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1874D97D1D9769AD00F2E7A2 /* Build configuration list for PBXNativeTarget "findString2" */;
+			buildPhases = (
+				1874D9721D9769AD00F2E7A2 /* Sources */,
+				1874D9731D9769AD00F2E7A2 /* Frameworks */,
+				1874D9741D9769AD00F2E7A2 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = findString2;
+			productName = findString2;
+			productReference = 1874D9761D9769AD00F2E7A2 /* findString2 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1874D96E1D9769AD00F2E7A2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = dan;
+				TargetAttributes = {
+					1874D9751D9769AD00F2E7A2 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 1874D9711D9769AD00F2E7A2 /* Build configuration list for PBXProject "findString2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1874D96D1D9769AD00F2E7A2;
+			productRefGroup = 1874D9771D9769AD00F2E7A2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1874D9751D9769AD00F2E7A2 /* findString2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1874D9721D9769AD00F2E7A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1874D98C1D9769C000F2E7A2 /* radixdb_util.c in Sources */,
+				1874D98F1D9769C000F2E7A2 /* radixdbdump.c in Sources */,
+				1874D9921D9769C000F2E7A2 /* radixdbmk.c in Sources */,
+				1874D9911D9769C000F2E7A2 /* radixdbmatch.c in Sources */,
+				1874D98E1D9769C000F2E7A2 /* radixdb2dot.c in Sources */,
+				1874D9931D9769C000F2E7A2 /* radixdbstats.c in Sources */,
+				1874D9981D976E4A00F2E7A2 /* Test.cpp in Sources */,
+				1874D9901D9769C000F2E7A2 /* radixdbget.c in Sources */,
+				1874D98D1D9769C000F2E7A2 /* radixdb.c in Sources */,
+				1874D98B1D9769C000F2E7A2 /* radixdb_make.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1874D97B1D9769AD00F2E7A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		1874D97C1D9769AD00F2E7A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		1874D97E1D9769AD00F2E7A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1874D97F1D9769AD00F2E7A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1874D9711D9769AD00F2E7A2 /* Build configuration list for PBXProject "findString2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1874D97B1D9769AD00F2E7A2 /* Debug */,
+				1874D97C1D9769AD00F2E7A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1874D97D1D9769AD00F2E7A2 /* Build configuration list for PBXNativeTarget "findString2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1874D97E1D9769AD00F2E7A2 /* Debug */,
+				1874D97F1D9769AD00F2E7A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1874D96E1D9769AD00F2E7A2 /* Project object */;
+}
